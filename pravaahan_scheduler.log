@@ -1,0 +1,43 @@
+2025-09-08 11:33:06,402 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:33:06,504 - watchfiles.main - INFO - 3 changes detected
+2025-09-08 11:33:26,111 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:38:18,803 - httpx - INFO - HTTP Request: GET http://testserver/health "HTTP/1.1 200 OK"
+2025-09-08 11:38:18,804 - main - INFO - Received schedule request with 2 trains
+2025-09-08 11:38:18,804 - solver - INFO - Initialized TrainScheduler with 2 trains
+2025-09-08 11:38:18,804 - solver - INFO - Starting train scheduling optimization
+2025-09-08 11:38:18,804 - solver - INFO - Solving CP-SAT model...
+2025-09-08 11:38:18,807 - solver - INFO - Found optimal solution
+2025-09-08 11:38:18,807 - main - INFO - Schedule solution status: Optimal
+2025-09-08 11:38:18,807 - main - INFO - Solution found with total penalty: 45
+2025-09-08 11:38:18,808 - main - ERROR - Value error in schedule request: 1 validation error for ScheduleResponse
+error_message
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+2025-09-08 11:38:18,808 - httpx - INFO - HTTP Request: POST http://testserver/solve "HTTP/1.1 400 Bad Request"
+2025-09-08 11:38:39,877 - main - INFO - Received schedule request with 2 trains
+2025-09-08 11:38:39,877 - solver - INFO - Initialized TrainScheduler with 2 trains
+2025-09-08 11:38:39,877 - solver - INFO - Starting train scheduling optimization
+2025-09-08 11:38:39,877 - solver - INFO - Solving CP-SAT model...
+2025-09-08 11:38:39,881 - solver - INFO - Found optimal solution
+2025-09-08 11:38:39,881 - main - INFO - Schedule solution status: Optimal
+2025-09-08 11:38:39,881 - main - INFO - Solution found with total penalty: 45
+2025-09-08 11:38:39,882 - httpx - INFO - HTTP Request: POST http://testserver/solve "HTTP/1.1 200 OK"
+2025-09-08 11:38:47,650 - httpx - INFO - HTTP Request: POST http://testserver/solve "HTTP/1.1 422 Unprocessable Entity"
+2025-09-08 11:39:43,362 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:39:43,462 - watchfiles.main - INFO - 3 changes detected
+2025-09-08 11:39:55,500 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:42:26,337 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:42:33,511 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:48:39,726 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:48:39,877 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:48:43,313 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:49:16,415 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:49:16,773 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:49:18,390 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:49:18,774 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:49:38,277 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:49:38,711 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:49:40,530 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:49:40,926 - main - INFO - Starting PraVaahan AI Scheduler service
+2025-09-08 11:49:41,735 - main - INFO - Shutting down PraVaahan AI Scheduler service
+2025-09-08 11:49:42,109 - main - INFO - Starting PraVaahan AI Scheduler service

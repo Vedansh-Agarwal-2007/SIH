@@ -1,0 +1,15 @@
+# PraVaahan AI Scheduler - Minimal Dependencies
+# Core dependencies only (for production deployment)
+
+# Core framework and web server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Optimization solver
+ortools>=9.14.6206
+
+# Data validation and serialization
+pydantic>=2.5.0
+
+# HTTP client for testing
+httpx>=0.25.2

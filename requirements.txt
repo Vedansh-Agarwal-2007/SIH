@@ -1,0 +1,35 @@
+# PraVaahan AI Scheduler - Production Dependencies
+# Core framework and web server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+
+# Optimization solver
+ortools>=9.14.6206
+
+# Data validation and serialization
+pydantic>=2.5.0
+
+# Testing framework
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+
+# Additional testing utilities
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Logging and monitoring (optional for production)
+structlog>=23.2.0
+
+# Development and code quality tools (optional)
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.1
+
+# Production server (alternative to uvicorn)
+gunicorn>=21.2.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# HTTP client for testing (optional)
+httpx>=0.25.2
